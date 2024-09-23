@@ -30,7 +30,6 @@ def draw_rectangle(n_cols, n_rows, room_image_file):
 
 def in_circle(x, y, radius, center):
     # equation of a circle:
-    # (x – x1)² + (y – y1)²= r²
     x1 = center[0]
     x2 = center[1]
     return (x - x1)**2 + (y - x2)**2 <= radius**2
